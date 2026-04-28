@@ -1,0 +1,70 @@
+# =========================
+# NODE / ELECTRON
+# =========================
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/
+out/
+build/
+
+*.asar
+
+# Electron cache
+*.log
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyi
+
+venv/
+.env/
+.env.local
+
+# Byte-compiled / optimized
+.Python
+
+# =========================
+# FASTAPI / BACKEND
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# uvicorn reload cache
+.watchgod_cache/
+
+# =========================
+# OS / SYSTEM
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# EDITOR / VSCODE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
+
+# =========================
+# LARGE / GENERATED FILES
+# =========================
+*.exe
+*.dll
+*.bin

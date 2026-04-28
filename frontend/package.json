@@ -1,0 +1,18 @@
+{
+  "name": "finairis-frontend",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "devDependencies": {
+    "electron": "^30.0.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chart.js": "^4.5.1"
+  }
+}

@@ -1,0 +1,16 @@
+<h1>Finance Dashboard</h1>
+
+<input id="amount" placeholder="Összeg">
+<input id="category" placeholder="Kategória">
+
+<button onclick="addIncome()">Bevétel +</button>
+<button onclick="addExpense()">Kiadás -</button>
+<button onclick="showChart()">📊 Statisztika</button>
+
+<h2 id="balance">💰 Egyenleg: 0</h2>
+
+<ul id="list"></ul>
+<canvas id="chart"></canvas>
+
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
